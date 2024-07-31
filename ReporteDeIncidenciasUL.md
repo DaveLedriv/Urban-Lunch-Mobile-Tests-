@@ -9,8 +9,15 @@ Este documento describe las incidencias encontradas durante el proceso de prueba
 - **ID:** ULS-1
 - **Descripción:** La pantalla de Confirmación del pedido no muestra el tiempo estimado de entrega.
 - **Pasos para Reproducir:**
-  1. Navegar a la pantalla de Confirmación del pedido.
-  2. Verificar la presencia del tiempo estimado de entrega.
+1. Ir al banco de pruebas
+
+2. Elegir un restaurante
+
+3. Hacerr clic en el botón flecha
+
+4. Elegir cualquier platillo
+
+5. Hacer clic en botón flecha
 - **Resultado Esperado:** El tiempo estimado de entrega debe mostrarse claramente.
 - **Resultado Actual:** El tiempo estimado de entrega no se muestra.
 - **Estado:** Abierta
@@ -23,10 +30,17 @@ Este documento describe las incidencias encontradas durante el proceso de prueba
 - **ID:** ULS-2
 - **Descripción:** El importe total no contiene el precio de todos los platillos preparados y la entrega.
 - **Pasos para Reproducir:**
-  1. Navegar a la pantalla de Confirmación del pedido.
-  2. Verificar que el importe total incluya todos los costos relevantes.
+1. Ir al banco de pruebas
+
+2. Elegir un restaurante
+
+3. Hacer clic en el botón flecha
+
+4. Elegir cualquier platillo
+
+5. Hacer clic en botón flecha
 - **Resultado Esperado:** El importe total debe incluir el precio de todos los platillos y el costo de la entrega.
-- **Resultado Actual:** El importe total no incluye todos los costos.
+- **Resultado Actual:** Solo el importe total aparece en pantalla.
 - **Estado:** Abierta
 - **Severidad:** Alta
 - **Prioridad:** Alta
@@ -37,10 +51,19 @@ Este documento describe las incidencias encontradas durante el proceso de prueba
 - **ID:** ULS-3
 - **Descripción:** En la pantalla de seguimiento de pedidos no se muestra el costo de todos los platillos pedidos en el restaurante.
 - **Pasos para Reproducir:**
-  1. Navegar a la pantalla de seguimiento de pedidos.
-  2. Verificar la presencia del costo total de los platillos pedidos.
+1. Ir al banco de pruebas
+
+2. Elegir un restaurante
+
+3. Hacer clic en el botón flecha
+
+4. Elegir cualquier platillo
+
+5. Hacer clic en botón flecha
+
+Hacer clic en el botón pedir
 - **Resultado Esperado:** El costo total de los platillos debe mostrarse claramente en la pantalla.
-- **Resultado Actual:** El costo total de los platillos no se muestra.
+- **Resultado Actual:** Solo el importe total aparece en pantalla.
 - **Estado:** Abierta
 - **Severidad:** Media
 - **Prioridad:** Media
